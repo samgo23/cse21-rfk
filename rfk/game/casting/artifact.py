@@ -4,9 +4,7 @@ from game.casting.actor import Actor
 class Artifact(Actor):
 
     def __init__(self):
-        """The 
-        
-        """
+        super().__init__()
         self._message = ''
     
     def get_message(self):
